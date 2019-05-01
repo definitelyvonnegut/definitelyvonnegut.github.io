@@ -2,3 +2,13 @@
 h1, h2, h3, p {
   background-color: rgba(221, 221, 221, 0.5);
 }
+body { 
+  background-image: url("bg.jpg");
+  background-color: #eeeeee;
+  background-repeat: round;
+}
+.imgholder {
+  /* class for <div>s that hold images */
+  background-color: rgba(180, 180, 180, 0.4);
+  border: 7px solid rgba(180, 180, 180, 0.4);
+}
