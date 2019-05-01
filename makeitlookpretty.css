@@ -5,6 +5,8 @@ h1, h2, h3, p {
 body { 
   background-color: #eeeeee;
   background-image: url("bg.jpg");
+  background-repeat: round;
+  background-attachment: fixed;
 }
 div.imgholder {
   /* class for <div>s that hold images */
