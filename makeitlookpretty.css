@@ -12,13 +12,9 @@ div.imgholder {
   border: 10px solid rgb(221, 221, 221);
 }
 @keyframes uponclick {
-  0%   {background-color: rgb(210, 210, 210);
-        border: 10px solid #000000;}
-  25%  {border: 8px solid #777777;}
-  50%  {border: 6px solid #bbbbbb;}
-  75%  {border: 3px solid #dddddd;}
+  0%   {background-color: rgb(210, 210, 210);}
   100% {background-color: #ffffff;
-        border: 1px hidden #ffffff;}
+        border: 3px solid #000000;}
 }
 p {
   border-style: solid;
@@ -26,5 +22,8 @@ p {
   border-color: rgb(221, 221, 221);
 }
 p:hover {
-  animation: uponclick 1s 1;
+  animation-name: uponclick;
+  animation-duration: 0.75s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
