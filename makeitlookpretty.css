@@ -4,9 +4,10 @@ h1, h2, h3, p {
 }
 body { 
   background-color: #eeeeee;
+  background-image: url("bg.jpg");
 }
 .imgholder {
   /* class for <div>s that hold images */
-  background-color: rgb(240, 240, 240);
-  border: 7px solid rgb(240, 240, 240);
+  background-color: rgb(235, 235, 235);
+  border: 10px solid rgb(221, 221, 221);
 }
