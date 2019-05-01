@@ -1,6 +1,6 @@
 * {font-family: Courier New;}
 h1, h2, h3, p {
-  background-color: rgba(221, 221, 221, 0.9);
+  background-color: rgb(221, 221, 221);
 }
 body { 
   background-image: url("bg.jpg");
@@ -9,6 +9,6 @@ body {
 }
 .imgholder {
   /* class for <div>s that hold images */
-  background-color: rgba(240, 240, 240, 1);
-  border: 7px solid rgba(240, 240, 240, 1);
+  background-color: rgb(240, 240, 240);
+  border: 7px solid rgb(240, 240, 240);
 }
