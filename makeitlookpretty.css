@@ -3,9 +3,7 @@ h1, h2, h3, p {
   background-color: rgb(221, 221, 221);
 }
 body { 
-  background-image: url("bg.jpg");
   background-color: #eeeeee;
-  background-repeat: round;
 }
 .imgholder {
   /* class for <div>s that hold images */
