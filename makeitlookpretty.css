@@ -1,5 +1,5 @@
 * {font-family: Courier New;}
-h1, h2, h3, p {
+h1, h2, h3 {
   background-color: rgb(221, 221, 221);
 }
 body { 
@@ -14,11 +14,11 @@ div.imgholder {
   border: 10px solid rgb(221, 221, 221);
 }
 @keyframes uponclick {
-  0%   {background-color: rgb(210, 210, 210);}
-  100% {background-color: #ffffff;
-        border-color: #000000;}
+  0%   {border-color: rgb(221, 221, 221);}
+  100% {border-color: #000000;}
 }
 p {
+  background-color: #fbfbfb;
   border-style: solid;
   border-width: 3px;
   border-color: rgb(221, 221, 221);
