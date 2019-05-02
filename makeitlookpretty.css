@@ -12,6 +12,7 @@ div.imgholder {
   /* class for <div>s that hold images */
   background-color: rgb(235, 235, 235);
   border: 10px solid rgb(221, 221, 221);
+  align-content: center;
 }
 @keyframes uponclick {
   0%   {border-color: rgb(221, 221, 221);}
