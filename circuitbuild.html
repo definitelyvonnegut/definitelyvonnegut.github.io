@@ -3,6 +3,20 @@
   <head>
     <title>BUILDING CIRCUITS</title>
     <link rel="stylesheet" type="text/css" href="makeitlookpretty.css">
+    <style>
+      @keyframes congrats {
+        0%   {color: rgba(0, 0, 0, 0);}
+        100% {color: rgba(0, 0, 0, 1);}
+      }
+      h4 {
+        color: rgba(0, 0, 0, 0);
+      }
+      h4:hover {
+        animation-name: congrats;
+        animation-duration: 1.25s;
+        animation-iteration-count: 1;
+      }
+    </style>
   </head>
   <body>
     <h1>
@@ -197,6 +211,20 @@
           </p>
         </li>
       </ol>
+    </div>
+    <h3>
+      Now, try doing this:
+    </h3>
+    <p>
+      Disconnect one of the lights from the circuit like you did with the series circuit and keep the other one connected.<br>
+      <b>Notice how the other light doesn't go out.</b> This is because, in a parallel circuit, if one current path cannot be used, there is still another one available for the electrons to flow through.<br>
+      This is an <i>advantage</i> of a parallel circuit over a series circuit, and it is also used in house wiring plans, because different room power outlets can be turned on or off without affecting the rest of the building.<br>
+      Parallel circuits <i>do</i> have a disadvantage in that they are more complex than series circuits and thus more difficult to repair and service.
+    </p>
+    <div class="imgholder">
+      <h4>
+        Congratulations! You just figured out an important physics concept!
+      </h4>
     </div>
   </body>
 </html>
