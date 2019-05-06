@@ -4,7 +4,7 @@ h1, h2, h3 {
 }
 body { 
   background-color: #eeeeee;
-  background-image: url("bg.jpg");
+/*background-image: url("bg.jpg");*/
   background-repeat: round;
   background-attachment: fixed;
 }
@@ -29,4 +29,21 @@ p:hover {
   animation-duration: 0.75s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
+}
+/* the next bit of code in this stylesheet
+ * is for a bit at the end of each page
+ * that will basically congratulate
+ * a site viewer for getting through a
+ * lab. might remove the keyframes later. */
+@keyframes congrats {
+  0%   {color: rgba(0, 0, 0, 0);}
+  100% {color: rgba(0, 0, 0, 1);}
+}
+.allblack {
+  color: rgba(0, 0, 0, 0);
+}
+.allblack:hover {
+  animation-name: congrats;
+  animation-duration: 1.25s;
+  animation-iteration-count: 1;
 }
