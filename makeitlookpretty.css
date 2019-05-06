@@ -5,6 +5,8 @@ h1, h2, h3 {
 body { 
   background-color: #eeeeee;
 /*background-image: url("bg.jpg");*/
+/*commenting out the line above
+ *until i find a better bg.*/
   background-repeat: round;
   background-attachment: fixed;
 }
