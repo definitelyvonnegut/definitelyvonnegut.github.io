@@ -27,3 +27,9 @@ div.start {
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
 }
+h1.largee {
+  /* just for really large font
+   * and nothing else, really. */
+  font-size: 200px;
+  align-self: center;
+}
