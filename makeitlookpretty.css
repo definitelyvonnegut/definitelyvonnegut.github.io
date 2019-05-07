@@ -6,7 +6,7 @@ body {
   background-color: #eeeeee;
 /*background-image: url("bg.jpg");*/
 /*commenting out the line above
- *until i find a better bg.*/
+ *until i find a better bg.    */
   background-repeat: round;
   background-attachment: fixed;
 }
@@ -36,7 +36,7 @@ p:hover {
  * is for a bit at the end of each page
  * that will basically congratulate
  * a site viewer for getting through a
- * lab. might remove the keyframes later. */
+ * lab. (might remove the keyframes later) */
 @keyframes congrats {
   0%   {color: rgba(0, 0, 0, 0);}
   100% {color: rgba(0, 0, 0, 1);}
@@ -48,4 +48,12 @@ p:hover {
   animation-name: congrats;
   animation-duration: 1.25s;
   animation-iteration-count: 1;
+}
+li > p {
+  /* basically to make lists
+   * more distinct from other
+   * elements, and also to
+   * improve page readability.*/
+  /* i mean, like i guess so. */
+  border-style: solid solid solid dashed;
 }
