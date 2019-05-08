@@ -1,20 +1,24 @@
-/* a custom css page
+/*
+ * a custom css page
  * specificially for the
  * index.html page and
  * the 404.html page
  * exclusively. just a
  * couple gimmicks,
- * honestly.            */
+ * honestly.
+ */
 @keyframes aaa {
   /* just some keyframes. */
   from {background: rgba(0, 0, 0, 1);}
   to   {background: rgba(0, 0, 0, 0);}
 }
 div.start {
-  /* a black div which covers
+  /* 
+   * a black div which covers
    * the entire page
    * upon intially visiting
-   * and then fading away.   */
+   * and then fading away.
+   */
   width: 100%;
   height: 100%;
   position: fixed;
