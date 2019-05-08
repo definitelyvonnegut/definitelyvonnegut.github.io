@@ -51,9 +51,10 @@ h1.largee {
  * the others in the equation.
  */
 #ohm1, #ohm2, #ohm3 {
+  /* shrinkwrapping. */
   display: inline-block;
 }
-#ohm1 div:hover:after, div::selection:after {
+#ohm1 div:hover:after {
   /* for the page ohm.html
    * (this particular id
    * will only be used for
@@ -61,11 +62,11 @@ h1.largee {
    */
   content: " \A Directly proportional to current and resistance (increases when they increase).";
 }
-#ohm2 div:hover:after, div::selection:after {
+#ohm2 div:hover:after {
   /* see previous comment. */
   content: " \A Directly proportional to voltage (increases when V increases) and inversely proportional to resistance (decreases when R increases).";
 }
-#ohm3 div:hover:after, div::selection:after {
+#ohm3 div:hover:after {
   /* once again, see comment on #ohm1. */
   content: " \A Directly proportional to voltage (increases when V increases) and inversely proportional to current (decreases when I increases).";
 }
