@@ -12,7 +12,8 @@
 @keyframes aaa {
   /* just some keyframes. */
   from {background: rgba(0, 0, 0, 1);}
-  to   {background: rgba(0, 0, 0, 0);}
+  to   {background: rgba(0, 0, 0, 0);
+        z-index: -10;}
 }
 div.start {
   /* 
