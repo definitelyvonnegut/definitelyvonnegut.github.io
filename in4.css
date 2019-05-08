@@ -6,6 +6,8 @@
  * exclusively. just a
  * couple gimmicks,
  * honestly.
+ * oh yeah, and also for
+ * ohm.html as well.
  */
 @keyframes aaa {
   /* just some keyframes. */
@@ -49,13 +51,13 @@ h1.largee {
    * will only be used for
    * the letter "V" in "V=IR".)
    */
-  content: " \A Voltage (V): Directly proportional to current and resistance (increases when they increase).";
+  content: " \A Directly proportional to current and resistance (increases when they increase).";
 }
 #ohm2 div:hover:after {
   /* see previous comment. */
-  content: " \A Current (I): Directly proportional to voltage (increases when V increases) and inversely proportional to resistance (decreases when R increases).";
+  content: " \A Directly proportional to voltage (increases when V increases) and inversely proportional to resistance (decreases when R increases).";
 }
 #ohm3 div:hover:after {
   /* once again, see comment on #ohm1. */
-  content: " \A Resistance (R): Directly proportional to voltage (increases when V increases) and inversely proportional to current (decreases when I increases).";
+  content: " \A Directly proportional to voltage (increases when V increases) and inversely proportional to current (decreases when I increases).";
 }
