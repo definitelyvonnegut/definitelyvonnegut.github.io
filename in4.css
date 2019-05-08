@@ -50,6 +50,9 @@ h1.largee {
  * each variable is proportional to
  * the others in the equation.
  */
+#ohm1, #ohm2, #ohm3 {
+  display: inline-block;
+}
 #ohm1 div:hover:after {
   /* for the page ohm.html
    * (this particular id
