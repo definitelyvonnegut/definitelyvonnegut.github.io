@@ -35,5 +35,27 @@ h1.largee {
   /* just for really large font
    * and nothing else, really. */
   font-size: 200px;
-  align-self: center;
+}
+/*
+ * the next three ids are specifically
+ * for the page ohm.html, which is a 
+ * demonstration of ohm's law and how
+ * each variable is proportional to
+ * the others in the equation.
+ */
+#ohm1 div:hover:after {
+  /* for the page ohm.html
+   * (this particular id
+   * will only be used for
+   * the letter "V" in "V=IR".)
+   */
+  content: " \A Voltage (V): Directly proportional to current and resistance (increases when they increase).";
+}
+#ohm2 div:hover:after {
+  /* see previous comment. */
+  content: " \A Current (I): Directly proportional to voltage (increases when V increases) and inversely proportional to resistance (decreases when R increases).";
+}
+#ohm3 div:hover:after {
+  /* once again, see comment on #ohm1. */
+  content: " \A Resistance (R): Directly proportional to voltage (increases when V increases) and inversely proportional to current (decreases when I increases).";
 }
